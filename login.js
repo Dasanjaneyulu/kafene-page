@@ -29,7 +29,7 @@ $(document).ready(() => {
             console.log(logoutBtn)
             logoutBtn.addClass('loggedIn').removeClass('loggedOut')
 
-            location.assign('order.html')
+            location.assign('orderlist.html')
         }
 
     })
@@ -71,7 +71,7 @@ $(document).ready(() => {
             let formHeading = $('#form-heading')
             formHeading.text('Sign Ip')
 
-            location.assign('order.html')
+            location.assign('orderlist.html')
         }
     })
 })
