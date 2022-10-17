@@ -5,7 +5,7 @@ $(document).ready(() => {
         e.preventDefault()
 
         if(!loginStatus) {
-            location.assign('file:///D:/das%20kanefe/kafene/pages/Orders/orderlist.html')
+            location.assign('orderlist.html')
         }
     })
 
@@ -29,7 +29,7 @@ $(document).ready(() => {
             console.log(logoutBtn)
             logoutBtn.addClass('loggedIn').removeClass('loggedOut')
 
-            location.assign('')
+            location.assign('order.html')
         }
 
     })
@@ -71,7 +71,7 @@ $(document).ready(() => {
             let formHeading = $('#form-heading')
             formHeading.text('Sign Ip')
 
-            location.assign('file:///D:/das%20kanefe/kafene/pages/Orders/orderlist.html')
+            location.assign('order.html')
         }
     })
 })
